@@ -67,19 +67,19 @@ getInstance方法是不需要再检查是否有锁的。如果我们看到单例
 
 ###如果单例类是由不同的ClassLoader加载的将会有多个单例对象
 
-如果一个类（相同的名字，相同的包）被两个不同的ClassLoader加载的话，在内存中他们表示2个不同的类。
+如果一个类（相同的名字，相同的包）被两个不同的**ClassLoader**加载的话，在内存中他们表示2个不同的类。
 
 ###实例化
 
 如果单例类实现了`java.io.Serializable` 接口，当一个单例序列化后被反序列化多次，那么会创建多个实例对象。为了避免这种情况应该实现
-readResolve方法。> 参见javadocs 的Serializable() 和 readResolve（） 方法
+readResolve方法。> 参见**javadocs** 的`Serializable()` 和 `readResolve（）` 方法
 
 
 ###小结
 
 - 多线程-当单例必须使用多线程的应用中是需要特别注意
-- 序列化-当单例实现了Serializbale接口时需要实现readResolve方法以避免会有两个不同的单例对象。
-- ClassLoader-如果单例类被两个不同的ClassLoader加载我们会有两个不同的单例类，分别属于各自的ClassLoader
+- 序列化-当单例实现了`Serializbale`接口时需要实现`readResolve`方法以避免会有两个不同的单例对象。
+- **ClassLoader**-如果单例类被两个不同的ClassLoader加载我们会有两个不同的单例类，分别属于各自的**ClassLoader**
 - 通过类名称的全局访问-通过类名称来获取单例实例。初看起来这是一种很简单的访问方式，但是却不灵活。如果我们需要替换单例，代码中所有的引用
 都需要相应的改变。
 
