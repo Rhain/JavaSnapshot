@@ -17,6 +17,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
 /**
+ * Java7 新特性一览
  * @author LiuShaoQi
  * @since 2014/8/25.
  */
