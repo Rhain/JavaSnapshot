@@ -23,7 +23,7 @@ import java.util.concurrent.Future;
  */
 public class Java7NewIO {
 
-    // create a path
+    // create a path  创建一个路径
     static Path listing = Paths.get("D:\\res\\tmp").normalize();
     // static Path listing2 = FileSystems.getDefault().getPath("D:\\res\\tmp").toAbsolutePath().toRealPath();
 
@@ -40,14 +40,14 @@ public class Java7NewIO {
         prefix.startsWith(completePath);
         prefix.equals(completePath);
 
-        // Path convert into a File
+        // Path convert into a File 路径转换为文件
         completePath.toFile();
 
         File file = new File("");
-        // File convert to Path
+        // File convert to Path  文件转换为路径
         file.toPath();
 
-        // Finding files in directory
+        // Finding files in directory 目录中寻找文件
         Path dir = Paths.get("D:\\res\\tmp");
         try (DirectoryStream<Path> stream = Files.newDirectoryStream(dir, "*.jpg")) {
             for (Path entry : stream) {
@@ -64,7 +64,7 @@ public class Java7NewIO {
             e.printStackTrace();
         }
 
-        // creating and deleting files
+        // creating and deleting files  创建和删除文件
         Path target = Paths.get("D:\\res\\test.txt");
         try {
             Set<PosixFilePermission> perms = PosixFilePermissions.fromString("rw-rw-rw");
@@ -76,7 +76,7 @@ public class Java7NewIO {
             e.printStackTrace();
         }
 
-        // copying and moving files
+        // copying and moving files 复制和移动文件
 
         Path source = Paths.get("D:\\res\\test.txt");
         Path dest = Paths.get("E:\\res\\test.txt");
@@ -89,7 +89,7 @@ public class Java7NewIO {
         }
 
         /**
-         * File attributes
+         * File attributes  查看文件属性
          */
 
         // Basic file attributes
@@ -104,7 +104,7 @@ public class Java7NewIO {
             e.printStackTrace();
         }
 
-        // Specific file attribute support
+        // Specific file attribute support 支持特殊的文件属性
         try {
             PosixFileAttributes attrs = Files.readAttributes(target, PosixFileAttributes.class);
             Set<PosixFilePermission> posixPermissions = attrs.permissions();
@@ -121,7 +121,7 @@ public class Java7NewIO {
             e.printStackTrace();
         }
 
-        // Symbolic links
+        // Symbolic links Java7可以操作文件链接
         try {
             if (Files.isSymbolicLink(target)) {
                 target = Files.readSymbolicLink(target);
@@ -134,7 +134,7 @@ public class Java7NewIO {
         }
 
         /**
-         * Reading and writing data quickly
+         * Reading and writing data quickly  更加便捷快速的读写文件
          */
 
         //reading file
@@ -166,7 +166,7 @@ public class Java7NewIO {
             e.printStackTrace();
         }
 
-        //File change notification
+        //File change notification  文件改动通知
 
         boolean shutdown = false;
 
@@ -198,7 +198,7 @@ public class Java7NewIO {
         }
 
         /**
-         * Asynchronous I/O operations
+         * Asynchronous I/O operations  异步文件操作
          */
 
 
