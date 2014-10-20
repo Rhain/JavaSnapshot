@@ -1,7 +1,7 @@
 package com.rhain.betterjava;
 
 /**
- * @author LiuShaoQi
+ * @author Rhain
  * @since 2014/9/16.
  */
 public class Main {

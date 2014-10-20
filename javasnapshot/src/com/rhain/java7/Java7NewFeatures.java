@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author LiuShaoQi
+ * @author Rhain
  * @since 2014/8/25.
  */
 public class Java7NewFeatures {

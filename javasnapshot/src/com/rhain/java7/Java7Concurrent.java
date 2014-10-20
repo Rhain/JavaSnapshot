@@ -7,7 +7,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @author LiuShaoQi
+ * @author Rhain
  * @since 2014/8/27.
  */
 public class Java7Concurrent {

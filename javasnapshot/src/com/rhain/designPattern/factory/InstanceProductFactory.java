@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author LiuShaoQi
+ * @author Rhain
  * @since 2014/9/12.
  */
 public class InstanceProductFactory {

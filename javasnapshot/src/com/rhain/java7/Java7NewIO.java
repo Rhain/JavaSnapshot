@@ -18,7 +18,7 @@ import java.util.concurrent.Future;
 
 /**
  * Java7 新特性一览
- * @author LiuShaoQi
+ * @author Rhain
  * @since 2014/8/25.
  */
 public class Java7NewIO {
@@ -31,6 +31,8 @@ public class Java7NewIO {
     static Path completePath = prefix.resolve("tmp/dm/hello.properties");
 
     public static void main(String[] args) {
+
+
         System.out.println("File Name [" + listing.getFileName() + "]");
         System.out.println("Number of Elements in the path ]" + listing.getNameCount() + "]");
         System.out.println("Parent path [" + listing.getParent() + "]");

@@ -5,7 +5,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 
 /**
- * @author LiuShaoQi
+ * @author Rhain
  * @since 2014/9/12.
  */
 public class ReflectionProductFactory {

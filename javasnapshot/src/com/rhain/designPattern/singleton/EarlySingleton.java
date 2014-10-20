@@ -1,7 +1,7 @@
 package com.rhain.designPattern.singleton;
 
 /**
- * @author LiuShaoQi
+ * @author Rhain
  * @since 2014/9/12.
  */
 public class EarlySingleton {
