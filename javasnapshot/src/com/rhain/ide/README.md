@@ -15,7 +15,7 @@ Find next|F3
 
 Eclipse
 Action|Windows
------------------
+-------|-------
 Find usages|Ctrl+Shift+G
 Find usages(results)|-
 Find/Replace in file|Ctrl+F
@@ -23,12 +23,12 @@ Find/Replace in projects|Ctrl+H
 Find next|Ctrl+j
 
 ####File Navigation
-IntelliJIDEA 的shift+shift组合键,在这里必须推荐ctrl+shift+I 组合在查找那个方法的时候，在查找框中按下这组按键可以查到到使用处的代码，爽爆了
+IntelliJIDEA 的shift+shift组合键,在这里必须推荐**ctrl+shift+I**组合在查找那个方法的时候，在查找框中按下这组按键可以查到到使用处的代码，爽爆了
 Eclipse 的Ctrl + o 
 
 IntelliJIDEA
 Action|Windows
---------------
+-------|-------
 Open resource/Navigate to File|ctrl+shift+N
 Open type|ctrl+N
 Go to symbol|Ctrl+Alt+shift+N
@@ -37,7 +37,7 @@ Recent Files|Ctrl+E
 
 Eclipse
 Action|Windows
------------------
+-------|-------
 Open resource/Navigate to File|ctrl+shift+R
 Open type|ctrl+Shift+T
 Go to symbol|-
@@ -51,7 +51,7 @@ Tab/File switcher|Ctrl+E
 
 IntelliJIDEA
 Action|Windows
---------------
+-------|-------
 Maximize Active window|Ctrl+Shift+F12
 Next view(editor)|Alt+Left/Right
 Quick switch editor|Ctrl+E
@@ -63,7 +63,7 @@ Activate editor|Ctrl+Tab
 
 Eclipse
 Action|Windows
------------------
+-------|-------
 Maximize Active window|Ctrl+M
 Next view(editor)|Ctrl+F6
 Quick switch editor|Ctrl+E
@@ -78,7 +78,7 @@ IntelliJIDEA 的Ctrl+D 是复制当前行，这简直--有点不习惯
 
 IntelliJIDEA
 Action|Windows
---------------
+-------|-------
 Move lines|Alt+Shift+Up/Down
 Delete lines|Ctrl+Y
 Copy/Duplicate lines|Ctrl+D
@@ -89,7 +89,7 @@ Structured selection|Ctrl+W
 
 Eclipse
 Action|Windows
------------------
+-------|-------
 Move lines|Alt+Up/Down
 Delete lines|Ctrl+D
 Copy/Duplicate lines|Alt+Shift+Up/Down
@@ -102,7 +102,7 @@ Structured selection|Alt+Shift+Up
 
 IntelliJIDEA
 Action|Windows
---------------
+-------|-------
 Find usages/References in workspace|Alt+F7
 Find usages results|Ctrl+Alt+Shift+F7
 Quick outline/File structure|Ctrl+F12
@@ -113,7 +113,7 @@ Open/Navigate to member hierarchy|Ctrl+Shift+H
 
 Eclipse
 Action|Windows
------------------
+-------|-------
 Find usages/References in workspace|Ctrl+Shift+G
 Find usages results|-
 Quick outline/File structure|Ctrl+O
@@ -128,7 +128,7 @@ Open/Navigate to member hierarchy|-
 IntelliJIDEA
 
 Action|Windows
---------------
+-------|-------
 
 Refactor this|Ctrl+Alt+Shift+T
 Show quick refactoring menu|-
@@ -141,7 +141,7 @@ Extract method|Ctrl+Alt+M
 
 Eclipse
 Action|Windows
------------------
+-------|-------
 Refactor this|-
 Show quick refactoring menu|Ctrl+Alt+T
 Rename|Ctrl+Alt+R
@@ -156,7 +156,7 @@ Extract method|Ctrl+Alt+M
 
 IntelliJIDEA
 Action|Windows
---------------
+-------|-------
 Quick fix|Alt+Enter
 Code completion|Ctrl+Space
 Smart code completion|Ctrl+Shift+Space
@@ -164,7 +164,7 @@ Live templates|Ctrl+J
 
 Eclipse
 Action|Windows
------------------
+-------|-------
 Quick fix|Alt+1
 Code completion|Ctrl+Space
 Smart code completion|-
@@ -174,21 +174,23 @@ Universal access
 
 IntelliJIDEA
 Action|Windows
---------------
+-------|-------
 Shortcuts cheatsheet|-
 Quick access/search everywhere|Ctrl+Shift+A
 
 
 Eclipse
 Action|Windows
------------------
+-------|-------
 Shortcuts cheatsheet|Ctrl+Shift+L
 Quick access/search everywhere|Ctrl+3
 
 
 补充IntelliJIDEA:
-Ctrl+T  svn/git等更新代码
-Ctrl+K  svn/git等提交代码   Ctrl+Shift+K git 远程提交
+
+ > **Ctrl+T**  `svn/git`等更新代码
+ 
+ > **Ctrl+K**  `svn/git`等提交代码   **Ctrl+Shift+K** `git` 远程提交
 
 
 
