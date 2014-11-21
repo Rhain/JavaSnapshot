@@ -204,7 +204,7 @@ Quick access/search everywhere|Ctrl+3
  
  > **Ctrl+K**  `svn/git`等提交代码   
  > **Ctrl+Shift+K** `git` 远程提交 
- > **Alt+P** `git`远程提交确定
+ > **Alt+P** `git`远程提交Push
 
 
 
