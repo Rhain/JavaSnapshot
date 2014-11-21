@@ -125,8 +125,10 @@ Open/Navigate to member hierarchy|-
 ####Refactoring
 
 IntelliJIDEA
+
 Action|Windows
 --------------
+
 Refactor this|Ctrl+Alt+Shift+T
 Show quick refactoring menu|-
 Rename|Ctrl+Alt+R
