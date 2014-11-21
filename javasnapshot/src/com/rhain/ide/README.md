@@ -201,7 +201,6 @@ Quick access/search everywhere|Ctrl+3
 补充IntelliJIDEA:
 
  > **Ctrl+T**  `svn/git`等更新代码
- 
  > **Ctrl+K**  `svn/git`等提交代码   
  > **Ctrl+Shift+K** `git` 远程提交 
  > **Alt+P** `git`远程提交Push
