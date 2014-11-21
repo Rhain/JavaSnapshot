@@ -173,9 +173,9 @@ Java语言自带了一些注解。下面会解释一些最重要的。需要注�
 
 ```public @interface CustomAnnotationClass```
 
-这会定义一个新的注解CustomAnnotationClass。@interface关键字是用来定义注解的。
+这会定义一个新的注解`CustomAnnotationClass`。`@interface`关键字是用来定义注解的。
 
-然后，你需要给这个注解定义必要的属性：retention policy 和 target。还有其他的属性可以定义，但是上面的是最普遍和最重要的两个。
+然后，你需要给这个注解定义必要的属性：`retention policy` 和 `target`。还有其他的属性可以定义，但是上面的是最普遍和最重要的两个。
 我们可以这样定义我们新注解的属性：
 ```
     @Retention( RetentionPolicy.RUNTIME )
@@ -253,6 +253,7 @@ java反射api提供了一些方法可以在运行时从类，方法，其他元�
 Junit基本上是processor读取反射后的类，并依靠每个方法或者类标注的注解来执行。
 像：
  - `@Test`:指明被注解的方法必须是要被执行的单元测试。只适用于方法，并且在运行时是可用的。
+ 
  ```
  @Test
  public void testMe(){
@@ -260,6 +261,7 @@ Junit基本上是processor读取反射后的类，并依靠每个方法或者类
  }
  ```
  - `@Before`:指明被注解的方法需要在测试前先执行，这对于建立测试环境和初始化很有用，只能用在方法上。
+ 
  ```
  @Before
  public void setUp(){
