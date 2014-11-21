@@ -24,7 +24,7 @@ Find/Replace in projects|Ctrl+H
 Find next|Ctrl+j
 
 ####File Navigation
-IntelliJIDEA 的shift+shift组合键,在这里必须推荐**ctrl+shift+I**组合在查找那个方法的时候，在查找框中按下这组按键可以查到到使用处的代码，爽爆了
+IntelliJIDEA 的shift+shift组合键,在这里必须推荐**ctrl+shift+I**组合在查找那个方法的时候，在查找框中按下这组按键可以查看到使用处的代码，爽爆了
 Eclipse 的Ctrl + o 
 
 IntelliJIDEA
@@ -180,7 +180,7 @@ Code completion|Ctrl+Space
 Smart code completion|-
 Live templates|-
 
-Universal access
+####Universal access
 
 IntelliJIDEA
 
