@@ -14,6 +14,7 @@ Find/Replace in projects|Ctrl+Shift+F
 Find next|F3
 
 Eclipse
+
 Action|Windows
 -------|-------
 Find usages|Ctrl+Shift+G
@@ -27,6 +28,7 @@ IntelliJIDEA 的shift+shift组合键,在这里必须推荐**ctrl+shift+I**组合
 Eclipse 的Ctrl + o 
 
 IntelliJIDEA
+
 Action|Windows
 -------|-------
 Open resource/Navigate to File|ctrl+shift+N
@@ -36,6 +38,7 @@ Go to line|Ctrl+G
 Recent Files|Ctrl+E
 
 Eclipse
+
 Action|Windows
 -------|-------
 Open resource/Navigate to File|ctrl+shift+R
@@ -48,8 +51,8 @@ Tab/File switcher|Ctrl+E
 
 ####Windows Actions
 
-
 IntelliJIDEA
+
 Action|Windows
 -------|-------
 Maximize Active window|Ctrl+Shift+F12
@@ -62,6 +65,7 @@ Activate editor|Ctrl+Tab
 
 
 Eclipse
+
 Action|Windows
 -------|-------
 Maximize Active window|Ctrl+M
@@ -77,6 +81,7 @@ Activate editor|F12
 IntelliJIDEA 的Ctrl+D 是复制当前行，这简直--有点不习惯
 
 IntelliJIDEA
+
 Action|Windows
 -------|-------
 Move lines|Alt+Shift+Up/Down
@@ -88,6 +93,7 @@ Correct indentation|Ctrl+Alt+I
 Structured selection|Ctrl+W
 
 Eclipse
+
 Action|Windows
 -------|-------
 Move lines|Alt+Up/Down
@@ -101,6 +107,7 @@ Structured selection|Alt+Shift+Up
 ####Code Navigation
 
 IntelliJIDEA
+
 Action|Windows
 -------|-------
 Find usages/References in workspace|Alt+F7
@@ -112,6 +119,7 @@ Open/Navigate to type hierarchy|Ctrl+H
 Open/Navigate to member hierarchy|Ctrl+Shift+H
 
 Eclipse
+
 Action|Windows
 -------|-------
 Find usages/References in workspace|Ctrl+Shift+G
@@ -129,7 +137,6 @@ IntelliJIDEA
 
 Action|Windows
 -------|-------
-
 Refactor this|Ctrl+Alt+Shift+T
 Show quick refactoring menu|-
 Rename|Ctrl+Alt+R
@@ -140,6 +147,7 @@ inline|Ctrl+Alt+N
 Extract method|Ctrl+Alt+M
 
 Eclipse
+
 Action|Windows
 -------|-------
 Refactor this|-
@@ -155,6 +163,7 @@ Extract method|Ctrl+Alt+M
 ####Code completion
 
 IntelliJIDEA
+
 Action|Windows
 -------|-------
 Quick fix|Alt+Enter
@@ -163,6 +172,7 @@ Smart code completion|Ctrl+Shift+Space
 Live templates|Ctrl+J
 
 Eclipse
+
 Action|Windows
 -------|-------
 Quick fix|Alt+1
@@ -173,6 +183,7 @@ Live templates|-
 Universal access
 
 IntelliJIDEA
+
 Action|Windows
 -------|-------
 Shortcuts cheatsheet|-
@@ -180,6 +191,7 @@ Quick access/search everywhere|Ctrl+Shift+A
 
 
 Eclipse
+
 Action|Windows
 -------|-------
 Shortcuts cheatsheet|Ctrl+Shift+L
