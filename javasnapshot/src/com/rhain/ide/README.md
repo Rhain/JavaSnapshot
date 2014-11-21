@@ -4,8 +4,9 @@
 IntelliJIDEA 提供了 Shift-Shift 组合键在代码，目录，文件中搜索。
 
 IntelliJIDEA
+
 Action|Windows
---------------
+-------|-------
 Find usages|Ctrl+Alt+F7
 Find usages(results)|Ctrl+Alt+Shift+F7
 Find/Replace in file|Ctrl+F
