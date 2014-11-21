@@ -106,7 +106,7 @@ Java语言自带了一些注解。下面会解释一些最重要的。需要注�
     CanBeRepeated[] values();
   }
   ```
-  然后再创建注解并标记元注解@Repeatable:
+  然后再创建注解并标记元注解`@Repeatable`:
   ```
   @Retention(RetentionPolicy.RUNTIME)
   @Target(ElementType.TYPE_USE)
@@ -125,7 +125,7 @@ Java语言自带了一些注解。下面会解释一些最重要的。需要注�
   ```
   如果我们这样使用一个不能重复使用的注解，编译器将会抛个错误出来：`Duplicate annotation of no-repeatable type`
   
-  Java8允许在类型前面使用注解。你可以在类型，new操作符，强制转换，throws语句使用。
+  Java8允许在类型前面使用注解。你可以在类型，`new`操作符，强制转换，`throws`语句使用。
   ```
   public static void main(String[] args){
     //type def
@@ -145,6 +145,7 @@ Java语言自带了一些注解。下面会解释一些最重要的。需要注�
   
   - `@FunctionalInterface`:这个注解表示被注解的元素是一个函数式接口。函数式接口是只有一个抽象方法的（不是默认方法）的接口。
   编译器将会把被注解的元素当做函数式接口来处理，如果不符合条件则会报错。看下面这个例子：
+  
   ```
   @FunctionalInterface
   interface MyCustomInterface{
@@ -270,9 +271,8 @@ Junit基本上是processor读取反射后的类，并依靠每个方法或者类
  ```
  
 ###Spring MVC
-Spring 使用注解来替代基于xml的配置。
+Spring 使用注解来替代基于xml的配置。如：
 
-像：
     - `@Component`:指明被注解的对象是一个bean，需要被spring容器管理
     - `@Autowired`:自动注入
 
