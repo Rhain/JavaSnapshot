@@ -170,7 +170,9 @@ Java语言自带了一些注解。下面会解释一些最重要的。需要注�
 ###自定义注解
 
 首先，定义一个新注解：
-`public @interface CustomAnnotationClass`
+
+```public @interface CustomAnnotationClass```
+
 这会定义一个新的注解CustomAnnotationClass。@interface关键字是用来定义注解的。
 
 然后，你需要给这个注解定义必要的属性：retention policy 和 target。还有其他的属性可以定义，但是上面的是最普遍和最重要的两个。
