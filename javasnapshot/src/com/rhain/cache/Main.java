@@ -31,22 +31,29 @@ public class Main {
          Forever Love!
          */
 
-        String s3 = Cache.getCache("cache");
+        CacheFactory.getInstance().setRegisteredCaches(CacheAInstance.CACHE_NAME, CacheAInstance.class);
+        CacheFactory.getInstance().setRegisteredCaches(CacheBInstance.CACHE_NAME, CacheBInstance.class);
+        CacheFactory.getInstance().setRegisteredCaches(CacheCInstance.CACHE_NAME, CacheCInstance.class);
+
+        String s3 = Cache.getCache(CacheAInstance.CACHE_NAME);
         System.out.println(s3);
         Thread.currentThread().sleep(2000);
-        String s5 = Cache.getCache("cache");
-        System.out.println(s5);//s3 和s5 相同说明缓存了
-        Cache.reload("cache");//手动刷新缓存
-        String s4 = Cache.getCache("cache");
+        String s5 = Cache.getCache(CacheAInstance.CACHE_NAME);
+        System.out.println(s5);// s3 和s5 相同说明缓存了
+        Cache.reload(CacheAInstance.CACHE_NAME);// 手动刷新缓存
+        String s4 = Cache.getCache(CacheAInstance.CACHE_NAME);
         System.out.println(s4);//s4 和s5、s3不同，说明手动刷新缓存成功了
         System.out.println("----------------------------------");
-        String s6 = Cache.getCache("cache2");
+        String s6 = Cache.getCache(CacheBInstance.CACHE_NAME);
         System.out.println(s6);
-        Cache.reload("cache2");
+        Cache.reload(CacheBInstance.CACHE_NAME);
         Thread.currentThread().sleep(3000); //在reload的缓存的时候，没有reload成功就会用以前的值，这就是为什么没有加上sleep（）
-                                            //方法，得到的s6和s7的值是一样的。因为代码执行的太快，但是缓存还没有reload成功
-        String s7 = Cache.getCache("cache2");
+                                            // 方法，得到的s6和s7的值是一样的。因为代码执行的太快，但是缓存还没有reload成功
+        String s7 = Cache.getCache(CacheBInstance.CACHE_NAME);
         System.out.println(s7);
+
+        String no = Cache.getCache("NotExsits");
+        System.out.println(no);
 
         System.exit(0);
         /**
